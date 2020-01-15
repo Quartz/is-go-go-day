@@ -1,3 +1,4 @@
+// The static list of GO! GO! days in a year.
 const GO_GO_DAYS: Array<string> = [
 	'01-05',
 	'01-15',
