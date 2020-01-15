@@ -1,8 +1,8 @@
 {
-  "name": "is-go-go-day",
+  "name": "@quartz/is-go-go-day",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "ts_build/index.js",
   "files": [
     "ts_build/**/*"
   ],
@@ -10,7 +10,10 @@
     "build": "tsc",
     "test": "mocha -r ts-node/register ts_src/*.spec.ts",
     "lint": "./node_modules/.bin/eslint --ignore-path .gitignore --ext=.js,.ts .",
-    "lint:fix": "./node_modules/.bin/eslint --fix --ignore-path .gitignore --ext=.js,.ts ."
+    "lint:fix": "./node_modules/.bin/eslint --fix --ignore-path .gitignore --ext=.js,.ts .",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint"
   },
   "author": "",
   "license": "ISC",
