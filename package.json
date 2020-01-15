@@ -1,6 +1,6 @@
 {
   "name": "@quartz/is-go-go-day",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "ts_build/index.js",
   "files": [
