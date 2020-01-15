@@ -12,7 +12,7 @@ console.log( isGoGoDay( new Date('2020-01-14') ) );
 console.log( isGoGoDay( new Date('2020-01-15T00:00:00-05:00') ) );
 ```
 
-Or get alist of all GO! GO! Days for a given year.
+Or get a list of all GO! GO! Days for a given year.
 
 ```js
 const { getGoGoDays } = require( '@quartz/is-go-go-day' );
