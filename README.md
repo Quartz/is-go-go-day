@@ -1,6 +1,6 @@
 # is-go-go-day
 
-Determine if a day is a GO! GO! Day.
+Determine if a day is a [GO! GO! Day](https://gogocurryamerica.com/).
 
 ```js
 const { isGoGoDay } = require( '@quartz/is-go-go-day' );
