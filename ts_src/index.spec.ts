@@ -6,6 +6,8 @@ import 'mocha';
 import { expect } from 'chai';
 
 describe( 'isGoGoDay', () => {
-	expect( isGoGoDay( new Date( '2019-12-24T00:00:00.000-05:00' ) ) ).to.be.false;
-	expect( isGoGoDay( new Date( '2019-12-25T00:00:00.000-05:00' ) ) ).to.be.true;
+	it( 'should work for any given dates', () => {
+		expect( isGoGoDay( new Date( '2019-12-24T00:00:00-05:00' ) ) ).to.be.false;
+		expect( isGoGoDay( new Date( '2019-12-25T00:00:00-05:00' ) ) ).to.be.true;
+	} );
 } );
