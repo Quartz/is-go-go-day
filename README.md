@@ -2,7 +2,7 @@
 
 Determine if a day is a GO! GO! Day.
 
-To build: `npm build`
+To build: `npm run build`
 
 To run tests: `npm test`
 
